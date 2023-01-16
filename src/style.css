@@ -141,10 +141,6 @@ h1,
   position: relative;
 }
 
-.sectionFourth {
-  padding: 2% 2% 0 2%;
-}
-
 .sectionFourthContainer {
   display: flex;
 }
@@ -395,10 +391,13 @@ footer p {
 }
 
 @media (max-width: 1024px) {
-  .sectionFourth {padding-left: 0}
+  .sectionFourth {
+    padding-left: 0;
+  }
   .sectionFourthContainerItem img {
-    width: 100%;
+    width: 95%;
     height: auto;
+    display: block;
     margin: 1rem auto;
 
     border-radius: 0.5rem;
@@ -436,6 +435,10 @@ footer p {
   .sectionFourthContainerItem img {
     width: 100%;
     height: auto;
+    margin: 0;
+  }
+  .sectionFourth {
+    padding: 0;
   }
   .sectionSecondContainer,
   .sectionFourthContainer,
