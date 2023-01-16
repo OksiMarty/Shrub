@@ -147,14 +147,13 @@ h1,
 
 .sectionFourthContainer {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .sectionFourthContainerItem {
   flex: 1;
 }
 .sectionFourthContainerItem img {
-  height: 170px;
+  height: 215px;
   border-radius: 0.5rem;
   opacity: 0.8;
 }
@@ -396,9 +395,10 @@ footer p {
 }
 
 @media (max-width: 1024px) {
+  .sectionFourth {padding-left: 0}
   .sectionFourthContainerItem img {
-    height: 100px;
-    display: block;
+    width: 100%;
+    height: auto;
     margin: 1rem auto;
 
     border-radius: 0.5rem;
@@ -432,7 +432,13 @@ footer p {
   .sectionFirst p {
     font-size: 2.5rem;
   }
+
+  .sectionFourthContainerItem img {
+    width: 100%;
+    height: auto;
+  }
   .sectionSecondContainer,
+  .sectionFourthContainer,
   .sectionFifthContainer,
   .sectionSeventhContainer {
     flex-direction: column;
