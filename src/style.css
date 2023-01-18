@@ -91,8 +91,8 @@ h1,
 .sectionSecondContainerItem img {
   width: 100%;
   height: auto;
-  opacity: 0.8;
-  border-radius: 5%;
+
+  border-radius: 2%;
 }
 
 .sectionSecondContainerItem img:hover {
@@ -135,7 +135,7 @@ h1,
   background-image: url("/src/pics/owners.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .sectionThirdItem {
   position: relative;
@@ -150,15 +150,14 @@ h1,
 }
 .sectionFourthContainerItem img {
   height: 215px;
-  border-radius: 0.5rem;
-  opacity: 0.8;
+  border-radius: 2%;
+
   display: block;
   margin: 0 auto;
 }
 
 .sectionFourthContainerItem img:hover {
   cursor: pointer;
-  opacity: 1;
 }
 
 .sectionFourth article {
@@ -179,11 +178,12 @@ h1,
   flex: 1;
 }
 .sectionFifthContainerItem img {
-  
-  height: 450px;
+  height: 400px;
   width: auto;
-  opacity: 0.7;
+
   border-radius: 2%;
+  display: block;
+  margin: 0 auto;
 }
 .sectionFifth article {
   text-align: center;
@@ -191,29 +191,19 @@ h1,
 
   padding-bottom: 2%;
 }
-.sectionFifth p {
-  padding: 1.5%;
-  text-align: center;
-  background-color: #ffffff;
-  border-radius: 2%;
-}
-.shopPar1 {
-  font-size: 2.5rem;
-  font-weight: 600;
-}
-
-.shopPar2 {
-  color: var(--secondary-color);
-  font-size: 2rem;
+.sectionFifthContainerItem p {
+  text-align: left;
 
   font-weight: bold;
 }
-
-.shopPar3 {
-  color: var(--secondary-color);
-  font-size: 2rem;
+.shopPar1 {
+  font-size: 2.5rem;
 }
+
+.shopPar2,
+.shopPar3,
 .shopPar4 {
+  color: var(--secondary-color);
   font-size: 2rem;
 }
 
@@ -307,6 +297,7 @@ h1,
 }
 
 .salesInfo,
+.salesPhoto,
 .salesForm {
   background-color: #ffffff;
   border-radius: 2%;
