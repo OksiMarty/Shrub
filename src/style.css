@@ -12,6 +12,38 @@ body {
   color: var(--primary-color);
   background-color: #f2ffe9;
 }
+.box {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  border-radius: 50%;
+  text-decoration: none;
+  padding: 1.3rem 0.7rem;
+
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+  animation: myanimation 3s infinite linear;
+}
+@keyframes myanimation {
+  0% {
+    background-color: #6f1ab6;
+    color: white;
+  }
+  50% {
+    background-color: white;
+    color: #6f1ab6;
+    transform: scale(1.3);
+  }
+  100% {
+    background-color: #6f1ab6;
+    color: white;
+  }
+}
+.box:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -135,10 +167,13 @@ h1,
   background-image: url("/src/pics/owners.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
 }
 .sectionThirdItem {
   position: relative;
+}
+.sectionFourth {
+  margin-top: 7%;
+  margin-bottom: 3%;
 }
 
 .sectionFourthContainer {
